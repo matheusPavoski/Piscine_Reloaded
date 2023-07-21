@@ -9,3 +9,11 @@ ex00: OK | ex01: OK | ex02: OK | ex03: OK | ex04: OK | ex05: OK | ex06: OK | ex0
 [![mmaschio's 42 Piscine_Reloaded Score](https://badge42.vercel.app/api/v2/clkblnlu7001608l83ar9hs4v/project/3159549)](https://github.com/JaeSeoKim/badge42)
 
 As soon as we become cadets of 42SP, we go through two weeks of warm-up before starting the cursus, and this is the first list we must submit. It consists of a series of exercises that help reinforce the fundamentals of the C language, which were covered during the Piscine immersion (the selective process to enter 42). Some examples of these fundamental concepts would be: loops, functions, pointers, and structs.
+
+Below, you will find a table with the name of each exercise submission file and a brief explanation. It's important to mention that the first five exercises are not related to the C language, but instead, they are related to shell commands.
+
+|File Name | Explanation|
+|----------|------------|
+|exo.tar   |In this exercise, we received an image of a terminal with the "ls -l" command, which listed some files and directories. The goal of this exercise was to recreate the contents of that folder in our terminal. To do this, we had to use commands such as "chmod" to change the file permissions; we used the "touch" command with the "-t" flag to modify the file's access and modification times, allowing us to set custom timestamps for the files; we used the "truncate" command with the "-s" flag to adjust the sizes of our files; we used the "ln" command to create hard links and the same command with the "-s" flag to create soft links. After that, we learned how to use the "tar -cf exo.tar *" command to compress our files and directories into a folder and submit them for evaluation.|
+
+
